@@ -621,7 +621,7 @@ class Game {
 }
 new Game();
 
-},{"pixi.js":"dsYej","./images/plus.png":"hhba6","./images/1euro.png":"kpuwJ","./images/city4.jpg":"3Dqt7","./plus":"7WMnV","./min":"iNJhi","./background":"6FKGH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./button2":"hmPuO"}],"dsYej":[function(require,module,exports) {
+},{"pixi.js":"dsYej","./images/plus.png":"hhba6","./images/1euro.png":"kpuwJ","./images/city4.jpg":"3Dqt7","./plus":"7WMnV","./min":"iNJhi","./background":"6FKGH","./button2":"hmPuO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dsYej":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "utils", ()=>_utils);
