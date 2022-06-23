@@ -549,7 +549,7 @@ var _button2 = require("./button2");
 class Game {
     mins = [];
     container = new _pixiJs.Container();
-    constructor(pixi){
+    constructor(){
         this.pixi = new _pixiJs.Application({
             width: 1920,
             height: 1080

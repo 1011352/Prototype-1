@@ -25,7 +25,7 @@ export class Game {
     private b: number
     private c: number
 
-    constructor(pixi: PIXI.Application) {
+    constructor() {
         this.pixi = new PIXI.Application({ width: 1920, height: 1080 })
         document.body.appendChild(this.pixi.view)
         this.loader = new PIXI.Loader()
