@@ -38671,36 +38671,9 @@ class Plus extends _pixiJs.Sprite {
                 break;
         }
     }
-    /*
-    keepInScreen() {
-        if (this.getBounds().left > this.game.pixi.screen.right) {
-
-            this.x = -this.getBounds().width
-
-        }
-
-        if (this.getBounds().top > this.game.pixi.screen.bottom) {
-
-            this.y = -this.getBounds().height
-
-        }
-
-        if (this.getBounds().bottom < this.game.pixi.screen.top) {
-
-            this.y = this.getBounds().height + 870
-
-        }
-        if (this.getBounds().right < this.game.pixi.screen.left) {
-
-            this.x = this.getBounds().width +1900
-
-        }
-
-    }
-*/ update(delta) {
+    update(delta) {
         this.x += this.xspeed * delta;
         this.y += this.yspeed * delta;
-    //this.keepInScreen()
     }
 }
 
